@@ -35,10 +35,17 @@
 					</nav>
 
                 
+				   
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcRJBu5JaC1wtpCeF_z-6FSdm2YSJzAldPoBCKSBYiMSlPvw/formResponse">
+                            <script type="text/javascript">var submitted=false;</script>
+    
+                             <!--Update the URL for thank you page on form submit -->
+                             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                             onload="if(submitted) {window.location='https://vibhubhatia007.github.io/';}"></iframe> 
+    
+							<form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcRJBu5JaC1wtpCeF_z-6FSdm2YSJzAldPoBCKSBYiMSlPvw/formResponse" target="hidden_iframe" onsubmit="return validateForm(); ">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -84,6 +91,7 @@
 						</section>>
 					</footer>
 
+                
                 
 					<div >
 						<ul><li></li></ul>
